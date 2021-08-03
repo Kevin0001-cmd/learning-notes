@@ -25,7 +25,7 @@ GoogLeNet的创新点
 
 **降维功能**
 
-![image-20210803022948118](img\image-20210803022948118.png)
+![image-20210803022948118](https://github.com/Kevin0001-cmd/learning-notes/blob/main/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/img/image-20210803022948118.png)
 
 对一个深度为512的特征矩阵使用5×5的卷积核进行卷积，不使用1×1的卷积核降维，需要819200个参数，使用1×1的卷积核降维，需要50688个参数。明显使用1×1的卷积核降维更好。
 
@@ -40,7 +40,7 @@ tips:
 
 GoogLeNet中有三个输出层，其中两个是辅助分类器。
 
-![20200717161450737](img\20200717161450737.png)
+![20200717161450737](https://github.com/Kevin0001-cmd/learning-notes/blob/main/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/img/20200717161450737.png)
 
 如上图所示，被黄色方框圈起来的两处就是辅助分类器。两个辅助分类器的结构是一样的。
 
@@ -67,11 +67,11 @@ The exact structure of the extra network on the side, including the auxiliary cl
 
 ## GoogLeNet网络参数
 
-![image-20210803033522323](img\image-20210803033522323.png)
+![image-20210803033522323](https://github.com/Kevin0001-cmd/learning-notes/blob/main/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/img/image-20210803033522323.png)
 
 参数的对应关系
 
-![image-20210803033745553](img\image-20210803033745553.png)
+![image-20210803033745553](https://github.com/Kevin0001-cmd/learning-notes/blob/main/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/img/image-20210803033745553.png)
 
 从左至右边，从上至下，依次的对应关系：
 
