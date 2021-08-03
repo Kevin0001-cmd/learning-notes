@@ -17,7 +17,7 @@ GoogLeNet的创新点
 
 传统的CNN结构（如AlexNet、VggNet）都是采用串行结构，而GoogLeNet采用的是并联结构。
 
-![image-20210803020545942](img\image-20210803020545942.png)
+![image-20210803020545942](https://github.com/Kevin0001-cmd/learning-notes/blob/main/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/img/image-20210803020545942.png)
 
 **Inception原始结构**：通过四个分支得到不同尺度的特征矩阵，但是每个特征举证的高纬度和宽维度必须相同，否则无法按照深度方向进行拼接。具体结构如图(a)。
 
