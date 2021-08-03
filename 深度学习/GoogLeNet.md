@@ -17,7 +17,7 @@ GoogLeNet的创新点
 
 传统的CNN结构（如AlexNet、VggNet）都是采用串行结构，而GoogLeNet采用的是并联结构。
 
-![image-20210803020545942](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20210803020545942.png)
+![image-20210803020545942](D:\zkf\learning-notes\深度学习\img\image-20210803020545942.png)
 
 **Inception原始结构**：通过四个分支得到不同尺度的特征矩阵，但是每个特征举证的高纬度和宽维度必须相同，否则无法按照深度方向进行拼接。具体结构如图(a)。
 
@@ -25,7 +25,7 @@ GoogLeNet的创新点
 
 **降维功能**
 
-![image-20210803022948118](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20210803022948118.png)
+![image-20210803022948118](D:\zkf\learning-notes\深度学习\img\image-20210803022948118.png)
 
 对一个深度为512的特征矩阵使用5×5的卷积核进行卷积，不使用1×1的卷积核降维，需要819200个参数，使用1×1的卷积核降维，需要50688个参数。明显使用1×1的卷积核降维更好。
 
@@ -40,7 +40,7 @@ tips:
 
 GoogLeNet中有三个输出层，其中两个是辅助分类器。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200717161450737.png?#pic_center)
+![20200717161450737](D:\zkf\learning-notes\深度学习\img\20200717161450737.png)
 
 如上图所示，被黄色方框圈起来的两处就是辅助分类器。两个辅助分类器的结构是一样的。
 
@@ -67,11 +67,11 @@ The exact structure of the extra network on the side, including the auxiliary cl
 
 ## GoogLeNet网络参数
 
-![image-20210803033522323](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20210803033522323.png)
+![image-20210803033522323](D:\zkf\learning-notes\深度学习\img\image-20210803033522323.png)
 
 参数的对应关系
 
-![image-20210803033745553](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20210803033745553.png)
+![image-20210803033745553](D:\zkf\learning-notes\深度学习\img\image-20210803033745553.png)
 
 从左至右边，从上至下，依次的对应关系：
 
