@@ -118,5 +118,5 @@ class MinStack {
 
    结果
 
-   ![](剑指 Offer 30. 包含min函数的栈.assets/202109141437427.png)
+   ![](https://raw.githubusercontent.com/Kevin0001-cmd/picgo/main/202109141526532.png)
 
