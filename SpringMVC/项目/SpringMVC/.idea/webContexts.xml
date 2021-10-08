@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/springmvc-06-ajax/web/ajaxtest.jsp" value="file://$PROJECT_DIR$/springmvc-06-ajax/web" />
+        <entry key="file://$PROJECT_DIR$/springmvc-09-file/web/index.jsp" value="file://$PROJECT_DIR$/springmvc-09-file/web" />
+      </map>
+    </option>
+  </component>
+</project>

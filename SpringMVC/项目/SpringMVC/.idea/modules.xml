@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springmvc-05-json/springmvc-05-json.iml" filepath="$PROJECT_DIR$/springmvc-05-json/springmvc-05-json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc-08-loginvalidate/springmvc-08-loginvalidate.iml" filepath="$PROJECT_DIR$/springmvc-08-loginvalidate/springmvc-08-loginvalidate.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="sshbuild:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/sshbuild_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="sshbuild/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="sshbuild" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
