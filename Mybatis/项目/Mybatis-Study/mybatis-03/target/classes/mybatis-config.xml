@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--configuration中的配置是有顺序的-->
+<!-- "(properties?,settings?,typeAliases?,typeHandlers?,objectFactory?,objectWrapperFactory?,reflectorFactory?,plugins?,environments?,databaseIdProvider?,mappers?)"-->
+<configuration>
+
+
+    <!--引入外部配置文件-->
+    <properties resource="db.properties">
+        <property name="username" value="root"/>  <!--添加一些配置-->
+        <property name="password" value="12344"/>
+    </properties>
+
+
+    <!--可以给实体类起别名-->
+    <typeAliases>
+        <!--给一个类取别名-->
+<!--        <typeAlias type="com.kuang.pojo.User" alias="User"/>-->
+        <package name="com.kuang.pojo"/>
+    </typeAliases>
+
+
+    <environments default="development">  <!--default：默认数据源-->
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+
+    <mappers>
+<!--
+        <mapper resource="com/kuang/dao/UserMapper.xml"/>
+-->
+<!--
+        <mapper class="com.kuang.dao.UserMapper"/>
+-->
+        <package name="com.kuang.dao"/>
+    </mappers>
+
+
+</configuration>
